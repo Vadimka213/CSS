@@ -1,0 +1,9 @@
+/* Посилання з href що починається з https */
+a[href^="https"] {
+  color: red;
+}
+
+/* Перший <p> після <ul> */
+ul + p {
+  font-size: 24px;
+}
